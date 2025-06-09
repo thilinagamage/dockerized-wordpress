@@ -23,3 +23,41 @@ This project runs a WordPress website and a MySQL database using Docker Compose.
 ```bash
 git clone https://github.com/your-username/dockerized-wordpress.git
 cd dockerized-wordpress
+```
+
+## 2. Run Docker Compose
+```bash
+docker compose up -d
+```
+
+## 3. Open in browser
+Go to: http://localhost:8000
+
+Complete the WordPress installation wizard.
+
+## 4. Stop the containers
+```bash
+docker compose down
+```
+
+## 🗂 Folder Structure
+```bash
+dockerized-wordpress/
+├── docker-compose.yml
+└── README.md
+```
+
+## 💾 Data Persistence
+WordPress files stored in Docker volume: wordpress_data
+
+MySQL data stored in Docker volume: db_data
+
+## 📷 Screenshots
+
+
+## 👨‍💻 Author
+Thilina Gamage
+
+GitHub: @thilinagamage
+
+LinkedIn: https://www.linkedin.com/in/thilinagamage010/
