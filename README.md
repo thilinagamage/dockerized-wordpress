@@ -52,8 +52,6 @@ WordPress files stored in Docker volume: wordpress_data
 
 MySQL data stored in Docker volume: db_data
 
-## 📷 Screenshots
-
 
 ## 👨‍💻 Author
 Thilina Gamage
